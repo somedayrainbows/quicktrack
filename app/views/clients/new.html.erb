@@ -1,0 +1,24 @@
+<h2>Add a new client</h2>
+
+<%= form_for(Client.new) do |f| %>
+  <%= f.label :company_name %>
+  <%= f.text_field :company_name %>
+  <%= f.label :phone %>
+  <%= f.text_field :phone %>
+  <%= f.label :contact_first_name %>
+  <%= f.text_field :contact_first_name %>
+  <%= f.label :contact_last_name %>
+  <%= f.text_field :contact_last_name %>
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+  <%= f.label :address_1 %>
+  <%= f.text_field :address_1 %>
+  <%= f.label :address_2 %>
+  <%= f.text_field :address_2 %>
+  <%= f.label :city %>
+  <%= f.text_field :city %>
+  <%= f.label :state %>
+  <%= f.text_field :state %>
+  <%= f.label :postal_code %>
+  <%= f.text_field :postal_code %>
+<% end %>
