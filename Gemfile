@@ -11,6 +11,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'figaro'
 gem 'faraday'
 gem 'faker'
+
 group :development, :test do
   gem 'pry'
   gem 'rspec-rails'
